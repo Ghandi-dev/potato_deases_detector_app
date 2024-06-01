@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PotatoGuard" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+<!--        <item name="android:windowFullscreen">false</item>-->
+        <!-- Optional: set the status bar color if needed -->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+<!--        <item name="android:navigationBarColor">@android:color/black</item>-->
+    </style>
+    <style name="Theme.PotatoGuard" parent="Base.Theme.PotatoGuard" />
+</resources>

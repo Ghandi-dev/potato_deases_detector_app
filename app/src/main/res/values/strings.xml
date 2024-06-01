@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">PotatoGuard</string>
+    <string name="introText">Diagnosa dan Rawat Daun Kentang Anda Secara Instan</string>
+    <string name="btn_mulai">Mulai</string>
+    <string name="greeting">Pantau Tanaman Kentang Anda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sehat">Sehat</string>
+
+    <!--    BUSUK DAUN-->
+    <string name="busuk_daun">Busuk Daun</string>
+    <string name="penyebab_busuk_daun">Jamur ini adalah parasit obligat. Ini berarti bahwa jamur ini harus melewati musim dingin di sisa-sisa tanaman dan umbi-umbian serta pada inang alternatif untuk bertahan hidup. Jamur ini memasuki tanaman melalui luka dan robekan di kulit. Spora jamur berkecambah pada suhu yang lebih tinggi selama musim semi dan menyebar melalui angin atau air. Penyakit ini lebih parah pada periode malam yang dingin (di bawah 18° C), hari-hari hangat (antara 18 dan 22° C), dan kondisi basah yang panjang seperti hujan dan kabut (kelembaban relatif 90%). Dalam kondisi ini, epidemi hawar daun dapat terjadi.</string>
+    <string-array name="gejala_busuk_daun">
+        <item>Bercak cokelat tua di ujung dan tepi daun.</item>
+        <item>Bercak berubah menjadi luka transparan.</item>
+        <item>Jamur putih menutupi bagian bawah daun.</item>
+        <item>Daun layu dan mati.</item>
+        <item>Bintik-bintik biru keabu-abuan pada umbi kentang.</item>
+        <item>Bercak cokelat tua terbentuk pada daun mulai dari ujung atau tepi daun. Pada iklim lembab, bercak-bercak ini menjadi lesi yang basah. Lapisan jamur putih dapat dilihat pada bagian bawah daun. Seiring perkembangan penyakit, seluruh daun menjadi nekrotik, berubah kecokelatan, dan mati. Lesi serupa terjadi pada batang dan tangkai daun. Umbi kentang memiliki bintik-bintik biru keabu-abuan di kulitnya dan dagingnya juga berubah warna menjadi cokelat, membuatnya tidak bisa dimakan. Pembusukan lahan yang terinfeksi memberi aroma yang khas.</item>
+    </string-array>
+    <string-array name="pencegahan_busuk_daun">
+        <item>Gunakan benih yang sehat atau tanaman yang lebih toleran.</item>
+        <item>Pastikan lahan memiliki ventilasi udara yang baik dan tanah yang dikeringkan dengan baik.</item>
+        <item>Pantau lahan dan singkirkan tanaman yang terinfeksi dan sekitarnya.</item>
+        <item>Gunakan rotasi tanaman selama dua hingga tiga tahun dengan tanaman yang bukan inang.</item>
+        <item>Hancurkan tanaman inang yang tumbuh dengan sendirinya di dalam dan sekitar lahan.</item>
+        <item>Hindari pemupukan berlebihan dengan nitrogen.</item>
+        <item>Gunakan pembatas tanaman.</item>
+        <item>Simpan umbi pada suhu rendah dan dengan ventilasi yang baik.</item>
+        <item>Hancurkan umbi-umbian dan sisa-sisa tanaman setelah panen dengan menguburnya sedalam dua kaki (sekitar 60 cm) atau memberikannya pada binatang.</item>
+    </string-array>
+    <array name="image_busuk_daun">
+        <item>@drawable/busuk_daun</item>
+        <item>@drawable/busuk_daun2</item>
+        <item>@drawable/busuk_daun3</item>
+    </array>
+
+
+    <!--    BERCAK KERING-->
+    <string name="bercak_kering">Bercak Kering</string>
+    <string name="penyebab_bercak_kering">Gejala-gejalanya disebabkan oleh Alternaria solani, jamur yang melewati musim dingin pada puing-puing tanaman yang terinfeksi di tanah atau pada inang alternatif. Bibit atau benih yang dibeli mungkin juga sudah terkontaminasi. Daun bagian bawah sering terinfeksi Ketika kontak dengan tanah yang terkontaminasi. Suhu hangat (24-29 °C) dan kelembaban tinggi (90%) mendukung pengembangan penyakit ini. Periode basah yang panjang (atau cuaca basah/kering bergantian) meningkatkan produksi spora, yang dapat menyebar melalui angin, percikan air hujan atau irigasi pancur. Umbi yang dipanen masih hijau atau dalam kondisi basah sangat rentan terhadap infeksi. Jamur ini sering menyerang setelah periode curah hujan tinggi dan sangat merusak di daerah tropis dan subtropis.</string>
+    <string-array name="gejala_bercak_kering">
+        <item>Bintik hitam dengan pertumbuhan yang konsentris dan lingkaran cahaya kuning pada buah dan daun di tingkat batang yang lebih rendah</item>
+        <item>Buah kemungkinan mulai membusuk</item>
+        <item>Gejala penyakit bercak kering terjadi pada daun, batang, dan buah yang lebih tua. Bercak abu-abu hingga coklat muncul di daun dan perlahan-lahan tumbuh secara konsentris di sekitar bagian tengah yang bersih - ciri khasnya berbentuk mata banteng. Luka ini dikelilingi oleh lingkaran cahaya kuning cerah. Ketika penyakit ini berkembang, seluruh daun dapat mengalami klorosis dan gugur, yang mengarah ke perontokan daun yang parah. Saat daun mati dan gugur, buah menjadi lebih rentan terhadap luka bakar matahari. Jenis bercak yang sama dengan bagian tengah yang bersih muncul pada batang dan buah. Buah-buah membusuk dan kadang-kadang berjatuhan</item>
+    </string-array>
+    <string-array name="pencegahan_bercak_kering">
+        <item>Para petani kecil dapat menggunakan batu kapur alga, campuran susu bebas lemak dan air (1:1) atau tepung batu untuk mengobati tanaman yang terinfeksi. Larutan 3 sendok teh soda bikarbonat + emulsi ikan dalam 4 liter air juga membantu. Pemberian produk berbahan dasar Bacillus subtilis atau fungisida berbahan dasar tembaga yang terdaftar sebagai bahan organik juga bisa berfungsi baik.</item>
+    </string-array>
+    <array name="image_bercak_kering">
+        <item>@drawable/bercak_kering</item>
+        <item>@drawable/bercak_kering2</item>
+        <item>@drawable/bercak_kering3</item>
+    </array>
+
+<!--    KENTANG -->
+    <string name="tentang_kentang">Kentang (Solanum tuberosum) adalah tanaman umbi-umbian yang berasal dari Amerika Selatan. Umbi kentang adalah bagian yang paling umum dikonsumsi dari tanaman kentang dan merupakan sumber karbohidrat yang penting dalam banyak makanan di seluruh dunia. Selain itu, kentang juga merupakan sumber nutrisi yang kaya, mengandung vitamin C, vitamin B6, kalium, serat, dan antioksidan yang penting untuk kesehatan tubuh. Kentang juga dapat membantu menjaga kesehatan jantung dengan mengatur tekanan darah dan menurunkan risiko penyakit kronis seperti penyakit jantung, kanker, dan diabetes. Keunggulan kentang dalam ketersediaan dan kemampuan untuk tumbuh di berbagai kondisi tanah dan iklim juga membuatnya menjadi sumber makanan yang dapat diandalkan dalam situasi krisis pangan atau bencana alam.</string>
+    <string-array name="cara_merawat_kentang">
+        <item>Pada awal pertumbuhan diperlukan ketersediaan air yang memadai.Penyiraman dilakukan sesuai dengan kondisi tanah dan cuaca. Di daerah lembab dan sering turun hujan, relatif tidak memerlukan penyiraman. Apabila keadaan tanah terlihat kering perlu dilakukan penyiraman, namun harus diperhatikan kondisi tanah jangan sampai terlalu basah, apalagi sampai tergenang. Peyiraman yang baik dilakukan pada pagi atau sore hari saat udara penguapan tidak terlalu tinggi dan penyinaran matahari tidak terlalu terik.</item>
+        <item>Pemupukan tanaman kentang dapat dilakukan selama 20 hari sekali agar menghasilkan panen yang optimal. Pemberian pupuk dilakukan ketika umbi mulai tumbuh, yaitu sekitar 30 hari setelah penanaman.</item>
+        <item>Bibit yang tunbuh abnormal atau mati harus segera diganti atau disulam dengan bibit yang baru. Waktu atau periode penyulaman maksimum 15 hari setelah tanam. Cara penyulaman ialah dengan mengambil bibit yang mati, kemudian meletakkan umbi bibit yang baru dan menimbunnya sedalam kurang lebih 8 cm. Penyulaman dilakukan seperti  saat penanaman pad pagi atau sore hari.</item>
+    </string-array>
+    <array name="image_sehat">
+        <item>@drawable/sehat</item>
+        <item>@drawable/sehat2</item>
+        <item>@drawable/sehat3</item>
+    </array>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+</resources>

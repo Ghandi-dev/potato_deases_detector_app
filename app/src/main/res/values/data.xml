@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="book_titles">
+        <item>The Catcher in the Rye</item>
+        <!-- Tambahkan judul buku lainnya -->
+    </string-array>
+
+    <string-array name="book_descriptions">
+        <item>A novel about personal identity and loss.</item>
+        <!-- Tambahkan deskripsi buku lainnya -->
+    </string-array>
+
+    <array name="book_images">
+        <item>@array/catcher_in_the_rye_images</item>
+        <!-- Tambahkan array gambar buku lainnya -->
+    </array>
+
+    <string-array name="catcher_in_the_rye_images">
+        <item>catcher_in_the_rye_image1</item>
+        <item>catcher_in_the_rye_image2</item>
+        <item>catcher_in_the_rye_image3</item>
+    </string-array>
+    <!-- Tambahkan array gambar untuk buku lainnya -->
+</resources>
