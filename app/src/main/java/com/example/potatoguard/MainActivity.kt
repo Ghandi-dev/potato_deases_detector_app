@@ -22,6 +22,7 @@ import androidx.core.content.ContextCompat
 
 import androidx.fragment.app.FragmentTransaction
 import com.example.potatoguard.ml.AutoModel2
+import com.example.potatoguard.ml.LatestModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.support.image.TensorImage
@@ -101,7 +102,7 @@ class MainActivity : AppCompatActivity(),Detector.DetectorListener {
         tensorImage.load(normalizedBitmap)
         val inputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, 256, 256, 3), DataType.FLOAT32)
         inputFeature0.loadBuffer(tensorImage.buffer)
-        val model = AutoModel2.newInstance(this)
+        val model = LatestModel.newInstance(this)
         // Memproses gambar melalui model
         val outputs = model.process(inputFeature0)
         val outputFeature0 = outputs.outputFeature0AsTensorBuffer

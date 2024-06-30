@@ -34,7 +34,8 @@ class Diagnosis : Fragment() {
         diagnosisImageView.setImageResource(image[index!!])
         titleContenTextView.text = clasess[index!!]
         if (confidence != null) {
-            akurasiTextView.text = (confidence * 100).toString().plus("%")
+            akurasiTextView.text =String.format ("%.2f %S",(confidence * 100),"%")
+//            akurasiTextView.text = (confidence * 100).toString().plus("%")
         }
         btnDiagnosis.setOnClickListener {
             val intent = Intent(activity, DetailActivity::class.java)
